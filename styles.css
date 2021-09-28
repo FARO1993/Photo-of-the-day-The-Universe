@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.blogs.es/c9ed4d/heic0406a/1366_2000.jpg");
+  background-repeat: repeat;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  padding: 40px;
+  border-radius: 20px;
+  position: block;
+}
+
+.title-content h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.title-content blockquote {
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.definition-universe {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-search {
+}
+
+.container-search h2 {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.search-input {
+  font-size: 20px;
+  margin-right: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.img-universe {
+  max-width: 600px;
+}
+
+.nasa-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.date,
+.description {
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}

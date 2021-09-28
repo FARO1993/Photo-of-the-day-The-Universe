@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NASA Universe</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-content">
+        <h1>
+          EL UNIVERSO<br />
+          Un largo camino a casa..
+        </h1>
+        <blockquote>
+          <em
+            >"El nitrógeno presente en nuestro ADN, el calcio de nuestros
+            dientes, el hierro de nuestra sangre, el carbono en las tartas de
+            manzana... todos fueron creados en el interior de estrellas que
+            chocaron entre sí. Estamos hechos del material de las
+            estrellas."</em
+          ><br />Carl Sagan
+        </blockquote>
+        <p class="definition-universe">
+          El universo es una enorme extensión de espacio que contiene toda la
+          materia y toda la energía que existe. El universo contiene todas las
+          galaxias, estrellas y planetas. El tamaño exacto del universo es
+          desconocido. Los científicos creen que el universo se encuentran aún
+          en expansión. Creen que esta expansión es el resultado de una violenta
+          y poderosa explosión que ocurrió hace 13.700 millones de años. Esta
+          explosión es conocida como la Gran Explosión. Mirando el espectro
+          electromagnético de un objeto, los científicos pueden determinar si un
+          objeto se está moviendo alejándose o acercándose a la Tierra. Cuando
+          objetos distantes, como los cuásares, son vistos desde la Tierra, su
+          espectro se encuentra corrido hacia el rojo. Siempre que haya un
+          corrimiento del espectro, se lo denomina Corrimiento Doppler. Si el
+          corrimiento es hacia el rojo, la luz emitida por el objeto tiene una
+          longitud de onda más larga. Cuando un objeto se mueve alejándose de la
+          Tierra, la luz que emite es vista con una longitud de onda mayor.
+          Cuando un objeto se mueve hacia la Tierra, la luz que emite es vista
+          con una longitud de onda menor. Esto produce un corrimiento en el
+          espectro del objeto hacia el violeta. La rapidez con que un objeto se
+          mueve puede ser estimada midiendo cuánto es el cambio que hay en el
+          espectro. Todas las galaxias distantes poseen un tremendo corrimiento
+          hacia el rojo. Basado en estos datos, los científicos creen que el
+          universo está aún en expansión.
+        </p>
+      </div>
+      <div class="container-search">
+        <h2>Ingrese una fecha y descubra la imagen del día</h2>
+        <form class="search-form">
+          <input type="date" class="search-input" name="buscar" />
+          <button class="search-button">Buscar</button>
+        </form>
+      </div>
+      <div class="results"></div>
+      <template id="item-template">
+        <div class="nasa-content">
+          <h3 class="title">Algo del espacio</h3>
+          <p class="date">2222/22/22</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            atque omnis mollitia, minima sint quae rem eius ipsum. Quibusdam hic
+            aperiam consectetur? Laborum, quam. Accusamus eius labore ipsum enim
+            explicabo.
+          </p>
+          <img class="img-universe" src="" alt="nasa-image" />
+        </div>
+      </template>
+    </div>
+  </body>
+</html>
